@@ -1,0 +1,17 @@
+x=input("Enter your word:")
+
+c=list(x)
+
+v=0
+char=0
+
+for i in c:
+	if(i=="a" or i=="e" or i=="i" or i=="o" or i=="u"):
+		v+=1
+	elif(i=="A" or i=="E" or i=="I" or i=="O" or i=="U"):
+		v+=1
+
+	else:
+		char+=1
+
+print("You entered word is",x,"\n \n it has:\n \nvowels:",v,"\n\nconsonants:",char)
